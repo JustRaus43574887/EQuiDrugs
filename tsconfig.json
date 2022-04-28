@@ -1,0 +1,21 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "moduleResolution": "node",
+    "baseUrl": "./",
+    "paths": {
+      "~components/*": ["./src/components/*"],
+      "~icons/*": ["./src/icons/*"],
+      "~images/*": ["./src/images/*"],
+      "~navigator/*": ["./src/navigator/*"],
+      "~types/*": ["./src/types/*"],
+      "~utils/*": ["./src/utils/*"],
+      "~redux/*": ["./src/redux/*"],
+      "~hooks/*": ["./src/hooks/*"]
+    },
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "skipLibCheck": false
+  }
+}

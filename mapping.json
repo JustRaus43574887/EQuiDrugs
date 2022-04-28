@@ -1,0 +1,38 @@
+{
+  "strict": {},
+  "components": {
+    "Button": {
+      "meta": {},
+      "appearances": {
+        "filled": {
+          "mapping": {},
+          "variantGroups": {
+            "size": {
+              "medium": {
+                "borderRadius": 44,
+                "minHeight": 44
+              }
+            }
+          }
+        }
+      }
+    },
+    "Input": {
+      "meta": {},
+      "appearances": {
+        "default": {
+          "mapping": {},
+          "variantGroups": {
+            "status": {},
+            "size": {
+              "medium": {
+                "minHeight": 44,
+                "borderRadius": 10
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
